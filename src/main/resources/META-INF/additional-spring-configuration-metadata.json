@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "variables.text.email",
+    "type": "java.lang.String",
+    "description": "A description for 'variables.text.email'"
+  },
+  {
+    "name": "variables.text.email",
+    "type": "java.lang.String",
+    "description": "A description for 'variables.text.email'"
+  }
+]}
