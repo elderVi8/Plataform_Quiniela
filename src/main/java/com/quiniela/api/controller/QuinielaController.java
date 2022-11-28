@@ -79,7 +79,7 @@ public class QuinielaController {
 		return service.deleteLigas(id);
 	}
 	
-///----------------------------------mundial----------------------------------------------------
+///----------------------------------mundial----------------------------------------------------------
 	@PostMapping(path="/save/mundial", produces = MediaType.APPLICATION_JSON_VALUE)
 	public QuinielaResponse saveMundial(@RequestBody Mundial mundial) {
 		return service.saveMundial(mundial);
@@ -95,7 +95,7 @@ public class QuinielaController {
 		return service.registrarMarcador(partido, id);
 	}
 	
-	//-------------------------------predcciones------------------------------------------
+	//------------------------------------predcciones------------------------------------------
 	@PostMapping(path="/save/prediccion/mundial/{idMundial}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public QuinielaResponse savePrediccion(@RequestBody Predicciones prediccion, @PathVariable String idMundial) {
 		return service.savePrediccion(prediccion, idMundial);
