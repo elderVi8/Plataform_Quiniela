@@ -246,10 +246,10 @@ public class QuinielaService {
 			liga.setRanking(rankingMapping.toResponse(liga));
 			ligasRepository.save(liga);
 			
-			return fault.toResponse("RESPONSE", "El usuario: "+usuario.getUsername()+" obtuvo "+puntosObtenidos+" puntos");
+			return fault.toResponse("RESPONSE", "El usuario : "+usuario.getUsername()+" obtuvo  "+puntosObtenidos+" puntos ");
 
 		} catch (Exception e) {
-			return fault.toResponse("ERROR", "Fallo al verificar el vaticinio");
+			return fault.toResponse("ERROR", "Fallo al verificar el vaticinio ");
 		}
 	}
 }
