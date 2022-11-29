@@ -222,7 +222,7 @@ public class QuinielaService {
 			return fault.toResponse("RESPONSE", "El vaticinio se registro correctamente");
 		} catch (Exception e) {
 			e.getStackTrace();
-			return fault.toResponse("ERROR", "Fallo al registrar el vaticinio");
+			return fault.toResponse("ERROR", "Fallo al registrar el vaticinio...w");
 		}
 	}
 	
